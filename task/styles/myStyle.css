@@ -1,0 +1,81 @@
+body 
+{
+    direction:rtl;
+     margin: 0 auto;
+    background-image: url("../images/background.jpg");
+display:block;
+}
+
+h1{
+font-family: Maga;
+font-size: 75px;
+color:  #9aafd5;
+font-weight: bolder;
+text-align: center;
+margin: 50px;
+}
+
+h2{
+font-family: Maga;
+font-size: 60px;
+color:  #cbaa7d;
+font-weight: bolder;
+text-align: center;
+margin: 50px;
+}
+
+#me{
+font-family:Maga;
+font-size: 40px;
+color: #8da2c8;
+font-weight: bolder;
+text-align: center;
+background-color: #d5ccd1;
+margin-left: 350px;
+margin-right: 350px;
+
+
+}
+
+#year{
+font-family:Maga;
+font-size: 50px;
+color: #8da2c8;
+}
+
+#hit{
+    text-decoration:none;
+    font-family:Maga;
+    color: #cbaa7d;
+}
+
+#hello{
+    background-image:url("../images/P60812-195216.jpg");
+   background-size: 250px;
+   background-repeat: no-repeat;
+    background-position:center;    
+    -webkit-transition: all 3s ease;
+-moz-transition: all 3s ease;
+-ms-transition: all 3s ease;
+-o-transition: all 3s ease;
+transition: all 3s ease;
+}
+
+#hello:hover{
+    background-color: #ead4e0;
+    background-image:url("../images/Welcome-Pink-.jpg");
+    background-size: 450px;
+    background-repeat:no-repeat;
+    border:solid;
+    border-color:#d5ccd1;
+    border-width:10px;
+    margin-left: 300px;
+    margin-right: 300px;
+ 
+
+}
+
+
+
+
+
