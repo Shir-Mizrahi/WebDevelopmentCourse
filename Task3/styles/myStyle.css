@@ -1,0 +1,131 @@
+body 
+{
+    direction:rtl;
+    margin: 0 auto;
+    background-image: url("../images/white.jpg");
+    background-size: cover;
+
+}
+
+nav.tabs ul li
+{
+    display:inline-block;
+}
+
+nav.tabs ul li a
+{
+    color:Black;
+    text-decoration:none;
+    
+    display:block;
+    width:140px;
+    height:30px;
+    text-align:center;  
+
+    padding-top:10px;
+    background-color:#4c90ac;
+    -moz-border-radius-topleft: 20px;
+    -moz-border-radius-topright: 20px;
+    -moz-border-radius-bottomright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -webkit-border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 20px 0px 0px; 
+}
+
+nav.tabs ul li a.selected
+{
+     background-color:#fed993;
+}
+
+nav.tabs ul li a:hover
+{
+    background-color:#ffe9ef;
+}
+
+nav.tabs ul li a.selected:hover
+{
+    background-color:#fed993;
+}
+
+nav.tabs ul li a:active
+{
+    background-color:#E8E8E8;
+}
+
+
+
+header{
+    width: 70%;
+    height: 140px;
+    float: left;
+margin: 0 auto;
+
+}
+
+h1{
+font-family: Maga;
+font-size: 75px;
+color:  #9aafd5;
+font-weight: bolder;
+text-align: center;
+margin: 50px;
+}
+
+h2{
+font-family: Maga;
+font-size: 60px;
+color:  #cbaa7d;
+font-weight: bolder;
+text-align: center;
+margin: 50px;
+}
+
+#me{
+font-family:Maga;
+font-size: 40px;
+color:#4c90ac;
+font-weight: bolder;
+background-color: whitesmoke;
+margin-left: 350px;
+text-align: center;
+
+}
+
+
+#hello{
+    background-image:url("../images/P60812-195216.jpg");
+   background-size: 250px;
+   background-repeat: no-repeat;
+    background-position:center; 
+    padding: 200px;     
+    margin-left: 350px;
+    -webkit-transition: all 3s ease;
+-moz-transition: all 3s ease;
+-ms-transition: all 3s ease;
+-o-transition: all 3s ease;
+transition: all 3s ease;
+}
+
+#hello:hover{
+
+    background-image:url("../images/Welcome-Pink-.jpg");
+    background-size: 450px;
+    background-repeat:no-repeat;
+    border:solid;
+    border-color:#d5ccd1;
+    border-width:10px;
+    padding: 200px;     
+    margin-left: 350px;
+
+ 
+
+}
+
+#hit{
+    text-decoration: none;
+    color:palevioletred;
+
+}
+
+
+
