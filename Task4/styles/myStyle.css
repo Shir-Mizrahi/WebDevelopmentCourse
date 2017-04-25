@@ -1,0 +1,111 @@
+body {
+    direction: rtl;
+    margin: 0 auto;
+    width: 1024px;
+    text-align: center;
+    background-image: url("../images/header.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-color: #4fc0ae;
+}
+
+h1 {
+    font-size: 120px;
+    font-family: Verdana;
+    color: #fbeccf;
+    padding-top: 30px;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: Verdana;
+    color: #fbeccf;
+    padding-top: 10px;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: Verdana;
+    color: #be1f24;
+    padding-top: 20px;
+    margin-left: 250px;
+}
+
+#redTitle {
+    font-size: 120px;
+    font-family: Verdana;
+    color: #be1f24;
+    margin-right: 125px;
+}
+
+#mainTopic, p {
+    background-color: #fbeccf;
+    margin-top: 180px;
+    font-size: 50px;
+    font-family: Verdana;
+    color: black;
+    font-weight: bold;
+}
+
+    #mainTopic .pic {
+        padding: 50px;
+    }
+
+    #mainTopic .names {
+        margin: 85px;
+        font-size: 30px;
+        font-family: Verdana;
+        color: black;
+        font-weight: bold;
+    }
+
+ul {
+    list-style-image: url("../images/student.png");
+    margin-right: 100px;
+    padding-top: 25px;
+}
+
+li {
+    font-family: Verdana;
+    padding-top: 5px;
+    font-size: 30px;
+    text-align: right;
+}
+
+#mainTopic a {
+    text-decoration: none;
+    font-family: Verdana;
+    font-size: 30px;
+    color: #be1f24;
+}
+
+
+#Details{
+text-align:right;
+font-size:28px;
+font-family: Verdana;
+margin-right:50px;
+
+}
+
+form {
+    text-align: right;
+    font-family: Verdana;
+    margin-right:50px;
+
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+input[type ='text'], input[type ='password'], textarea, select {
+    display: block;
+    margin-bottom: 15px;
+}
+
+input[type ='submit'] {
+    margin-top: 10px;
+}

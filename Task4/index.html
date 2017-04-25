@@ -1,0 +1,89 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>טכנולוגיית למידה</title>
+    <meta name="description" content="דף נחיתה - טכנולוגיית למידה" />
+    <meta name="keywords" content="טכנולוגיית למידה, תואר ראשון, B.A, עיצוב, טכנולוגיה, פיתוח הדרכה" />
+    <meta name="author" content="Shir-Mizrahi" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="https://webdevelopmentcourse.github.io/contactUs/WebDevelopmentCourse/jScripts/contactUs.js" type="text/javascript"></script>
+</head>
+<body>
+    <header>
+        <h1>זו ההזדמנות שלך</h1>
+        <h2>להשתלב בעולם ההיי-טק</h2>
+        <h3>תואר ראשון B.A</h3>
+        <h1 id="redTitle">טכנולוגיית למידה</h1>
+    </header>
+
+    <article>
+        <div id="mainTopic">
+            <p>תואר ייחודי המשלב בין 3 העולמות: </p>
+            <img class="pic" src="images/soft.png" height="160" width="160" />
+            <img class="pic" src="images/Design.png" height="160" width="160" />
+            <img class="pic" src="images/training.png" height="160" width="160" />
+            <br />
+            <span class="names">טכנולוגייה</span>
+            <span class="names">עיצוב</span>
+            <span class="names">פיתוח הדרכה</span>
+            <br />
+
+            <ul>
+                <li>לימודים טכניים – טכנולוגיה, תכנות, פיתוח אתרים</li>
+                <li> עיצוב גרפי – עיצוב ופיתוח ממשקי משתמש UI וחווית משתמש UX</li>
+                <li>פיתוח הדרכה – פסיכולוגיה, תאוריות למידה והתנהגות ארגונית</li>
+            </ul>
+            <br />
+            <a href="http://www.hit.ac.il/telem/overview" target="_blank">למידע נוסף לחצ/י כאן</a>
+            <br />
+            <br />
+            <div id="Details">מלא/י את פרטיך ויועץ לימודים יחזור אליך בהקדם:</div>
+            <form>
+                <input type="hidden" id="myEmail" name="name" value="shirmiz21@gmail.com">
+
+
+                <label for="FirstName">
+                    שם פרטי:
+                    <input type="text" id="FirstName" placeholder="הכנס את שמך הפרטי" />
+                </label>
+
+                <label for="LastName">
+                    שם משפחה:
+                    <input type="text" id="LastName" placeholder="הכנס את שם משפחתך" />
+                </label>
+
+                <label for="yourEmail">
+                    דואר אלקטרוני:<br />
+                    <input type="text" id="yourEmail" placeholder="הכנס את כתובת המייל" />
+                </label>
+
+                <label for="phoneNumber">
+                    טלפון:
+                    <input type="text" id="phoneNumber" placeholder="הכנס את מספר הטלפון" />
+                </label>
+
+
+                <label for="myMS">
+                    תגובה:
+                    <textarea id="myMS"></textarea>
+                </label>
+
+                <input type="submit" id="Send" value="שלח">
+
+                <div id="feedback"></div>
+
+            </form>
+
+        </div>
+    </article>
+</body>
+</html>
