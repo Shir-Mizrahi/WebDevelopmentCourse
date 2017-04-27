@@ -1,0 +1,271 @@
+body /*עיצוב עמוד הבית */ {
+    direction: rtl;
+    margin: 0 auto;
+    background-color: #e2dccc;
+}
+
+header { /*עיצוב תגית header */
+    margin: 0 auto;
+    text-align: center;
+}
+
+#stylepage { /*עיצוב כלל ההעמודים מחדש, חוץ מעמוד הבית */
+    direction: rtl;
+    margin: 0 auto;
+    background-color: #77b7b7;
+    text-align: center;
+}
+
+
+/*עיצוב תפריט הניווט*/
+
+nav.tabs ul li {
+    display: inline-block;
+    margin: 0 auto;
+    width: 233px;
+}
+
+    nav.tabs ul li a /*תצוגת תפריט הניווט ללא אינטראקציה*/ {
+        color: Black;
+        text-decoration: none;
+        font-family: David;
+        font-weight: bolder;
+        font-size: 20px;
+        display: block;
+        width: 238px;
+        height: 30px;
+        text-align: center;
+        padding-top: 10px;
+        background-color: #77b7b7; /*צבע תכלת*/
+    }
+
+        nav.tabs ul li a.selected /*תצוגת תפריט הניווט בעת לחיצה*/ {
+            background-color: #e08767; /*צבע כתום*/
+        }
+
+        nav.tabs ul li a:hover /*תצוגת תפריט הניווט בעת מעבר עכבר*/ {
+            background-color: #e2dccc; /*צבע שמנת*/
+        }
+
+        nav.tabs ul li a.selected:hover /* תצוגת תפריט הניווט בעת מעבר עכבר תפריט שנלחץ*/ {
+            background-color: #e2dccc; /*צבע שמנת*/
+        }
+
+        nav.tabs ul li a:active /*תצוגת תפריט הניווט בעת לחיצת עכבר*/ {
+            background-color: #faf9e5; /*צבע צהוב בייבי*/
+        }
+
+/*עיצוב אייקונים*/
+
+#facebook {
+    background-image: url("../images/e094d9_ed262988847f43a7a4a01c933dff291b-mv2.png");
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 30px;
+    padding-bottom: 10px;
+}
+
+    #facebook:hover {
+        background-image: url("../images/fb.png");
+        background-size: 40px;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 30px;
+        padding-bottom: 10px;
+    }
+
+#insta {
+    background-image: url("../images/instagram-xxl.png");
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 40px;
+    padding-bottom: 18px;
+}
+
+    #insta:hover {
+        background-image: url("../images/Instagram-logo.png");
+        background-size: 52px;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 40px;
+        padding-bottom: 15px;
+    }
+
+/*עיצוב עמוד הבית*/
+
+
+.me { /*עיצוב עמוד הבית חלק 1*/
+    font-family: David;
+    font-size: 30px;
+    color: #e2dccc;
+    font-weight: bolder;
+    background-color: #77b7b7;
+    text-align: center;
+    margin-left: 490px;
+    margin-right: 490px;
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+ul {
+    list-style-image: url("../images/star.png");
+}
+
+li {
+    font-family: David;
+    padding-top: 10px;
+    margin-right: 400px;
+    margin-left: 320px;
+}
+
+
+.me2 { /*עיצוב עמוד הבית חלק 2*/
+    font-family: David;
+    font-size: 30px;
+    color: #e2dccc;
+    font-weight: bolder;
+    background-color: #e08767;
+    text-align: center;
+    margin-left: 490px;
+    margin-right: 490px;
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+
+/*עיצוב עמוד תקשורת חזותית */
+
+
+
+#myart { /*פרוייקט הסיום - תמונה לפני */
+    background-image: url("../images/Creation of Adam.jpg");
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 350px;
+    margin-left: 350px;
+    margin-right: 350px;
+    -webkit-transition: all 5s ease;
+    -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    transition: all 2s ease;
+}
+
+    #myart:hover { /*פרוייקט הסיום - תמונת הפרוייקט במעבר עכבר */
+        background-image: url("../images/Project Shir Niva Adi.jpg");
+        background-size: 950px;
+        background-repeat: no-repeat;
+        border: solid;
+        border-color: #e08767;
+        border-width: 10px;
+        padding: 350px;
+        margin-left: 350px;
+        margin-right: 350px;
+    }
+
+
+.art { /*עיצוב פסקה (טקסט באמצע) */
+    font-family: David;
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+    background-color: #e2dccc;
+    text-align: right;
+    padding-right: 10px;
+    padding-left: 5px;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.art1 { /*עיצוב פיסקה  */
+    font-family: David;
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+    background-color: #e2dccc;
+    text-align: center;
+    width: 960px;
+    margin: 0 auto;
+}
+
+#fontstyle1 { /*הגדלת מילים חשובות */
+    font-family: David;
+    font-size: 40px;
+    color: black;
+}
+
+.textcolor { /*שינוי צבע טקסט */
+    color: #e08767;
+    font-family: David;
+    font-size: 30px;
+    margin-right: 80px;
+    padding-top: 10px;
+}
+
+#movie { /*מיקום הסירטון באתר */
+    text-align: center;
+    padding-right: 200px;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+
+/*עיצוב עמוד ארגון וייצוג ידע */
+
+
+#stylepage .infogra { /*עיצוב פיסקה  */
+    font-family: David;
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+    background-color: #e2dccc;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 10px;
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+.textcolor2 { /*שינוי צבע טקסט-הצגת הפרוייקט על נויה */
+    color: #e08767;
+    font-family: David;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+
+#Noya { /*עיצוב שורת הצגת הפרוייקט על נויה */
+    margin-right: 230px;
+    padding-top: 10px;
+    font-family: David;
+}
+
+#NoyaPic { /*עיצוב ומיקום התמונה של נויה */
+    margin-right: 45px;
+    padding-top: 10px;
+}
+
+
+/*עיצוב עמוד גראפיקה ממוחשבת */
+
+#poster { /*עיצוב כותרת הפוסטר שלי */
+    font-family: David;
+    text-decoration: underline;
+    font-size: 40px;
+    color: black;
+    font-weight: bolder;
+    background-color: #e2dccc;
+    text-align: center;
+    width: 960px;
+    margin: 0 auto;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+
